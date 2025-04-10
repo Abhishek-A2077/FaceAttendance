@@ -5,7 +5,7 @@ from keras.models import load_model
 from keras.preprocessing.image import img_to_array
 
 # Load the trained model
-model = load_model("emotion_classifier_final.h5")
+model = load_model("emotion_classifier.h5")
 
 
 # Emotion labels used during training (FER2013 has 7 classes)
